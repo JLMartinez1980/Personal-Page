@@ -9,6 +9,17 @@ let nameInfo = () => {
   var button = document.getElementById('btn');
   button.addEventListener('click',nameInfo);
 
+let personalInfo = () => {
+  let para = document.createElement("P");
+  let text = document.createTextNode("I am an entry level developer with a passion for learning Primarily I've focussed on learnign the fundamentals of javaScript, but all areas in front-end frameworks have my attention.");
+  para.appendChild(text);
+  document.getElementById('myDIV').appendChild(para);
+}
+
+let buttonBio = document.getElementById('btnbio');
+buttonBio.addEventListener('click', personalInfo);
+
+
 let languageJs = () => {
       var x = document.createElement("A");
       var t = document.createTextNode("javaScript");
