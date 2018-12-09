@@ -1,0 +1,22 @@
+body {
+  background-image: url(../images/Background.jpg);
+  background-size: cover;
+}
+
+h1, h2 {
+  color: blue;
+}
+
+p {
+  font-size: large;
+  color: yellow;
+}
+
+#btn:hover {
+  background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
